@@ -1,0 +1,43 @@
+# --- UI ---
+streamlit>=1.36.0
+
+# --- Audio acquisition ---
+yt-dlp>=2024.8.6
+pytube>=15.0.0
+
+# --- Audio processing ---
+pydub>=0.25.1
+ffmpeg-python>=0.2.0
+
+# --- Transcription (local Whisper) ---
+openai-whisper>=20231117
+torch>=2.2.0
+torchaudio>=2.2.0
+
+# --- Translation (Hindi -> English) ---
+deep-translator>=1.11.4
+
+# --- LLM orchestration ---
+langchain>=0.2.14
+langchain-core>=0.2.36
+langchain-community>=0.2.12
+langchain-mistralai>=0.1.13
+
+# --- RAG / Vector store ---
+chromadb>=0.5.5
+langchain-huggingface>=0.0.3
+sentence-transformers>=3.0.1
+
+# --- Embeddings backend ---
+transformers>=4.44.0
+huggingface-hub>=0.24.6
+
+# --- PDF / TXT export ---
+fpdf2>=2.7.9
+reportlab>=4.2.2
+
+# --- Utilities ---
+python-dotenv>=1.0.1
+tiktoken>=0.7.0
+numpy>=1.26.4
+requests>=2.32.3
