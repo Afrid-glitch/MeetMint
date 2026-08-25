@@ -4,7 +4,7 @@ streamlit>=1.36.0
 # --- Audio acquisition ---
 yt-dlp>=2024.8.6
 pytube>=15.0.0
-pyaudioop
+
 
 # --- Audio processing ---
 pydub>=0.25.1
